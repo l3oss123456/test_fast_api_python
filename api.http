@@ -1,0 +1,9 @@
+GET http://127.0.0.1:5000/
+Content-Type: application/json
+Authorization: {{Username: TestUser}} {{Password: TestPass}}
+
+
+###
+
+GET http://localhost:3000/users
+Content-Type: application/json

@@ -1,0 +1,27 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello Python</title>
+  </head>
+  <body>
+    <h1>Test Python | Flask + Mongodb</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <td>ชื่อ</td>
+          <td>นามสกุล</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for row in datas %}
+        <tr>
+          <td>{{ row.name }}</td>
+          <td>{{ row.lname }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
